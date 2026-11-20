@@ -1,0 +1,311 @@
+
+{
+    "Beginner": [
+        {
+            "question": "Which keyword defines a function in Python?",
+            "options": ["function", "def", "define", "return"],
+            "answer": 1
+        },
+        {
+            "question": "Which data type stores key-value pairs?",
+            "options": ["List", "Tuple", "Dictionary", "Set"],
+            "answer": 2
+        },
+        {
+            "question": "What is the output of len('Python')?",
+            "options": ["5", "6", "7", "8"],
+            "answer": 1
+        },
+        {
+            "question": "Which symbol is used for single-line comments?",
+            "options": ["//", "#", "--", "/*"],
+            "answer": 1
+        },
+        {
+            "question": "Which data type is immutable?",
+            "options": ["List", "Dictionary", "Set", "Tuple"],
+            "answer": 3
+        },
+        {
+            "question": "What is the output of 10 // 3?",
+            "options": ["3.33", "4", "3", "1"],
+            "answer": 2
+        },
+        {
+            "question": "Which function accepts input from the user?",
+            "options": ["print()", "input()", "read()", "int()"],
+            "answer": 1
+        },
+        {
+            "question": "Which method adds one element to the end of a list?",
+            "options": ["append()", "push()", "add()", "insert_last()"],
+            "answer": 0
+        },
+        {
+            "question": "Which keyword handles an exception?",
+            "options": ["catch", "error", "except", "handle"],
+            "answer": 2
+        },
+        {
+            "question": "What is the output of 2 ** 3?",
+            "options": ["6", "8", "9", "5"],
+            "answer": 1
+        },
+        {
+            "question": "Which keyword creates a class?",
+            "options": ["object", "class", "define", "struct"],
+            "answer": 1
+        },
+        {
+            "question": "Which data type stores True or False?",
+            "options": ["int", "str", "float", "bool"],
+            "answer": 3
+        },
+        {
+            "question": "Which keyword exits a loop immediately?",
+            "options": ["continue", "skip", "break", "pass"],
+            "answer": 2
+        },
+        {
+            "question": "What is the output of 10 % 3?",
+            "options": ["3", "1", "0", "3.33"],
+            "answer": 1
+        },
+        {
+            "question": "Which function converts '25' into an integer?",
+            "options": ["str()", "float()", "int()", "bool()"],
+            "answer": 2
+        },
+        {
+            "question": "Which collection stores only unique elements?",
+            "options": ["List", "Tuple", "Set", "String"],
+            "answer": 2
+        },
+        {
+            "question": "Which keyword creates an anonymous function?",
+            "options": ["def", "lambda", "return", "yield"],
+            "answer": 1
+        },
+        {
+            "question": "Which function returns the data type of a variable?",
+            "options": ["type()", "len()", "id()", "range()"],
+            "answer": 0
+        },
+        {
+            "question": "Which file mode opens a file for reading only?",
+            "options": ["w", "a", "r", "x"],
+            "answer": 2
+        },
+        {
+            "question": "Which keyword imports a module?",
+            "options": ["include", "require", "using", "import"],
+            "answer": 3
+        }
+    ],
+
+    "Intermediate": [
+        {
+            "question": "What does *args collect in a function?",
+            "options": ["Positional arguments", "Keyword arguments", "Global variables", "Return values"],
+            "answer": 0
+        },
+        {
+            "question": "What type of object does **kwargs create inside a function?",
+            "options": ["List", "Tuple", "Dictionary", "Set"],
+            "answer": 2
+        },
+        {
+            "question": "What does inheritance allow a class to do?",
+            "options": ["Delete objects", "Reuse parent class behavior", "Prevent methods", "Remove variables"],
+            "answer": 1
+        },
+        {
+            "question": "What is the result of [x*2 for x in range(3)]?",
+            "options": ["[2,4,6]", "[0,1,2]", "[0,2,4]", "[1,2,3]"],
+            "answer": 2
+        },
+        {
+            "question": "Which method initializes a newly created instance?",
+            "options": ["__start__", "__init__", "__main__", "__call__"],
+            "answer": 1
+        },
+        {
+            "question": "What is the purpose of a decorator?",
+            "options": ["Delete a function", "Import a module", "Wrap or modify behavior", "Create a loop"],
+            "answer": 2
+        },
+        {
+            "question": "Which keyword is commonly used to produce values from a generator?",
+            "options": ["return", "yield", "break", "pass"],
+            "answer": 1
+        },
+        {
+            "question": "What does zip() combine?",
+            "options": ["Files", "Classes", "Elements from iterables", "Exceptions"],
+            "answer": 2
+        },
+        {
+            "question": "What does enumerate() provide?",
+            "options": ["Index and value", "Only values", "Only indexes", "Sorted values"],
+            "answer": 0
+        },
+        {
+            "question": "Which block normally executes whether an exception occurs or not?",
+            "options": ["try", "except", "else", "finally"],
+            "answer": 3
+        },
+        {
+            "question": "What does the is operator compare?",
+            "options": ["Value equality", "Object identity", "Data type only", "Object length"],
+            "answer": 1
+        },
+        {
+            "question": "Which function returns the next item from an iterator?",
+            "options": ["iter()", "next()", "yield()", "range()"],
+            "answer": 1
+        },
+        {
+            "question": "Which module provides deepcopy()?",
+            "options": ["math", "os", "copy", "sys"],
+            "answer": 2
+        },
+        {
+            "question": "What does a shallow copy share with the original nested collection?",
+            "options": ["Nested object references", "No objects", "Only integers", "Only dictionary keys"],
+            "answer": 0
+        },
+        {
+            "question": "Which decorator defines a class method?",
+            "options": ["@staticmethod", "@property", "@classmethod", "@abstract"],
+            "answer": 2
+        },
+        {
+            "question": "What does a static method receive automatically?",
+            "options": ["self", "cls", "Both self and cls", "Neither self nor cls"],
+            "answer": 3
+        },
+        {
+            "question": "Which keyword explicitly raises an exception?",
+            "options": ["throw", "raise", "except", "error"],
+            "answer": 1
+        },
+        {
+            "question": "Which function applies a function to each item of an iterable?",
+            "options": ["filter()", "reduce()", "map()", "sorted()"],
+            "answer": 2
+        },
+        {
+            "question": "What is method overriding?",
+            "options": ["Deleting a class", "Renaming an object", "Redefining an inherited method", "Creating a module"],
+            "answer": 2
+        },
+        {
+            "question": "Which statement manages context managers?",
+            "options": ["with", "for", "while", "global"],
+            "answer": 0
+        }
+    ],
+
+    "Advanced": [
+        {
+            "question": "What does GIL stand for in CPython?",
+            "options": ["Global Interpreter Lock", "General Internal Loop", "Global Input Layer", "Group Instance Lock"],
+            "answer": 0
+        },
+        {
+            "question": "Which method creates a new instance before initialization?",
+            "options": ["__init__", "__new__", "__call__", "__repr__"],
+            "answer": 1
+        },
+        {
+            "question": "Which module supports asynchronous event-loop programming?",
+            "options": ["random", "math", "asyncio", "copy"],
+            "answer": 2
+        },
+        {
+            "question": "Which keyword defines a native coroutine function when used with def?",
+            "options": ["await", "yield", "async", "global"],
+            "answer": 2
+        },
+        {
+            "question": "What does MRO stand for?",
+            "options": ["Method Resolution Order", "Memory Reference Object", "Module Runtime Operation", "Method Return Object"],
+            "answer": 0
+        },
+        {
+            "question": "Which algorithm does Python use for class MRO?",
+            "options": ["Binary search", "C3 linearization", "Quick sort", "Merge sort"],
+            "answer": 1
+        },
+        {
+            "question": "Which mechanism is primarily used for memory management in CPython?",
+            "options": ["Manual allocation", "Stack only", "Reference counting", "File caching"],
+            "answer": 2
+        },
+        {
+            "question": "What can CPython's cyclic garbage collector detect?",
+            "options": ["Syntax errors", "Unreachable reference cycles", "Network errors", "Duplicate variables"],
+            "answer": 1
+        },
+        {
+            "question": "Which module provides abstract base class support?",
+            "options": ["abc", "os", "time", "json"],
+            "answer": 0
+        },
+        {
+            "question": "Which decorator caches function results using hashable arguments?",
+            "options": ["@property", "@classmethod", "@lru_cache", "@staticmethod"],
+            "answer": 2
+        },
+        {
+            "question": "What is a metaclass?",
+            "options": ["A generator", "A class that creates classes", "A local function", "A dictionary"],
+            "answer": 1
+        },
+        {
+            "question": "What is the default metaclass in Python?",
+            "options": ["object", "class", "type", "super"],
+            "answer": 2
+        },
+        {
+            "question": "Which method defines the hash value of an object?",
+            "options": ["__len__", "__str__", "__hash__", "__eq__"],
+            "answer": 2
+        },
+        {
+            "question": "What can __slots__ prevent when no instance dictionary is inherited or declared?",
+            "options": ["Inheritance", "Method calls", "Object creation", "Automatic instance __dict__ creation"],
+            "answer": 3
+        },
+        {
+            "question": "Which expression delegates iteration to a subgenerator?",
+            "options": ["yield from", "return from", "await from", "iter from"],
+            "answer": 0
+        },
+        {
+            "question": "Which exception signals the end of a synchronous iterator?",
+            "options": ["ValueError", "StopIteration", "TypeError", "IndexError"],
+            "answer": 1
+        },
+        {
+            "question": "Which module provides process-based parallelism?",
+            "options": ["threading", "asyncio", "multiprocessing", "itertools"],
+            "answer": 2
+        },
+        {
+            "question": "Which special method is called when entering a synchronous context manager?",
+            "options": ["__init__", "__start__", "__enter__", "__open__"],
+            "answer": 2
+        },
+        {
+            "question": "Which method controls normal attribute access, including existing attributes?",
+            "options": ["__init__", "__getattribute__", "__new__", "__repr__"],
+            "answer": 1
+        },
+        {
+            "question": "Which keyword allows assignment to a binding in an enclosing function scope?",
+            "options": ["global", "local", "static", "nonlocal"],
+            "answer": 3
+        }
+    ]
+}
